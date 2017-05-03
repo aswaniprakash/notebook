@@ -1,0 +1,58 @@
+body{
+	background-color: #eee;
+}
+
+textarea{
+	width: 100%;
+	margin-top: 15px;
+  	resize: none;
+  	line-height: 29px;
+  	border: none;
+  	outline: none;
+  	font-size: 20px;
+  	background-image: linear-gradient(to right, white 0px, transparent 0px), linear-gradient(to left, white 0px, transparent 0px), repeating-linear-gradient(white, white 28px, #ccc 28px, #ccc 29px, white 29px);
+}
+
+input{
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+}
+
+.page-container{
+	width: 50%;
+	position: relative;
+	margin: 0 auto;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	padding: 15px;
+	padding-left: 80px;
+		background-color: #fff;
+}
+
+.page-container:before{
+	content: '';
+	position: absolute;
+	z-index: 1;
+	left: 15px;
+	width: 40px;
+	height: 96%;
+	background-image: radial-gradient(circle 7.5px , #eee 0%, #eee 11px, rgba(0, 0, 0, 0.3) 12px, rgba(0, 0, 0, 0) 13px);
+	background-size: 40px 70px;
+	background-repeat: repeat-y;
+}
+
+.date-div{
+	float: right;
+}
+
+.sub-div{
+	margin-top: 10px;
+}
+.sub-div input{
+	width: 90%;
+	float: right;
+}
+
+.clearfix{
+	clear: both;
+}
